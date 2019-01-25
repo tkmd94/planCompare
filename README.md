@@ -6,3 +6,5 @@ VARIAN社製治療計画装置EclipseのScripting codeです。
 作成環境：v15.6
 
 動作検証：v15.6
+
+使用方法についてはwikiを参照してください。
