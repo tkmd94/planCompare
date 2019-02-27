@@ -93,7 +93,7 @@ namespace VMS.TPS
             panel.Background = Brushes.White;
 
             //define labels of patient & protocol Information
-            AddCheckTitle("Patient Informatin ", panel);
+            AddCheckTitle("Patient Information ", panel);
             var labelPat = new Label();
             labelPat.Content = "";
             labelPat.HorizontalAlignment = HorizontalAlignment.Left;
@@ -111,7 +111,7 @@ namespace VMS.TPS
 
 
             //define labels of clinical protocol.
-            AddCheckTitle("Prescription ", panel);
+            AddCheckTitle("Prescriptions ", panel);
             var gridPrescription = new Grid();
             AddColumn(" Structure ", gridPrescription, 0, FontWeights.Normal, Brushes.Black, Brushes.White);
             gridPrescription.RowDefinitions.Add(new RowDefinition());
